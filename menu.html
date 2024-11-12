@@ -1,0 +1,131 @@
+<html>
+<html lang="fr" <head>
+<meta charset="utf-8">
+<meta name="description" content=" Les menus du restaurants">
+<title> Mes menus</title>
+<style>
+    table,
+    td {
+
+        border: 1px solid red;
+    }
+</style>
+</head>
+
+<body>
+    <h1> Le menu</h1>
+
+    <h2> Entrée</h2>
+    <ul>
+        <li> <a href="menu/entree1.html"> Entrée 1</a> </li>
+        <li> Entrée 2</li>
+        <li> Entrée 3</li>
+    </ul>
+
+    <h2 id="plats_chaud"> Plats chauds</h2>
+    <ul>
+        <li> Entrée 1</li>
+        <li> Entrée 2</li>
+        <li> Entrée 3</li>
+    </ul>
+    <p>
+        <a href="index.html"> Accueil</a>
+    </p>
+    <!---
+    les tableaux 
+    td colspan s'eteindre
+    td rowspan descendre    
+    th utilisé en majorité sur les entetes    
+   --->
+    <p>
+    <table>
+
+        <thead>
+            <tr>
+                <td colspan="2"> Plat </td>
+                <td> Prix</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+
+                <td>madjimbi</td>
+                <td> 5f</td>
+            </tr>
+            <tr>
+
+                <td> banane</td>
+                <td> 3f</td>
+            </tr>
+            <tr>
+                <td colspan="2"> Dessert</td>
+            </tr>
+            <tr>
+
+                <td> Lait </td>
+                <td> 1 f</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+            <tr>
+                <td colspan="2"> tous les prix sont comprises hors TTC</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    </p>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Nom du produit</th>
+                <th>Prix HT </th>
+                <th> Quantité</th>
+                <th> Prix TTC</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Frites</td>
+                <td>5 €</td>
+                <td>10</td>
+                <td>5 €</td>
+            </tr>
+            <tr>
+                <td>burgers</td>
+                <td>10 €</td>
+                <td>11</td>
+                <td>10 €</td>
+            </tr>
+            <tr>
+                <td>water </td>
+                <td>6 €</td>
+                <td>11</td>
+                <td>6 €</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2" rowspan="2"></td>
+                <th> Total </th>
+                <td> 100€</td>
+            </tr>
+            <tr>
+             
+                <th>Total TTC</th>
+                <td>100 €</td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- les iframes 
+    permet d integrer des pages externes ou internes-->
+    <iframe src="menu.html" width="500" height="200"> </iframe>
+    <!-- -->
+  
+   
+    
+</body>
+
+</html>
